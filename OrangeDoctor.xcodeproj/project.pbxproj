@@ -45,6 +45,7 @@
 		197C6CCA1AA5CCFC0033A8F7 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CC91AA5CCFC0033A8F7 /* Operation.m */; };
 		197C6CCE1AA5CDE50033A8F7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CCD1AA5CDE50033A8F7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		197C6CCF1AA5CFA00033A8F7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C6CC41AA5CB310033A8F7 /* libxml2.dylib */; };
+		197C6CD71AA5ED860033A8F7 /* BlueToothSDKVer1.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */; };
 		19C1F7511AA073D900022293 /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19C1F74E1AA073D800022293 /* EaseMob.bundle */; };
 		74BE67111A9F40BA008F7C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67101A9F40BA008F7C44 /* main.m */; };
 		74BE67141A9F40BA008F7C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67131A9F40BA008F7C44 /* AppDelegate.m */; };
@@ -141,6 +142,8 @@
 		197C6CC91AA5CCFC0033A8F7 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		197C6CCC1AA5CDE50033A8F7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		197C6CCD1AA5CDE50033A8F7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		197C6CD51AA5ED860033A8F7 /* BlueToothSDKVer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothSDKVer1.h; sourceTree = "<group>"; };
+		197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothSDKVer1.m; sourceTree = "<group>"; };
 		19C1F6D51AA073D800022293 /* ICallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManagerDelegate.h; sourceTree = "<group>"; };
 		19C1F6D71AA073D800022293 /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
 		19C1F6D81AA073D800022293 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
@@ -431,6 +434,15 @@
 				197C6CCD1AA5CDE50033A8F7 /* Reachability.m */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		197C6CD41AA5ED710033A8F7 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				197C6CD51AA5ED860033A8F7 /* BlueToothSDKVer1.h */,
+				197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */,
+			);
+			path = Bluetooth;
 			sourceTree = "<group>";
 		};
 		19C1F6CF1AA073D800022293 /* FrameWork */ = {
@@ -763,6 +775,7 @@
 		74BE670D1A9F40BA008F7C44 /* OrangeDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				197C6CD41AA5ED710033A8F7 /* Bluetooth */,
 				197C6C531AA5C8710033A8F7 /* HttpEngine */,
 				197C6CB81AA5CA6F0033A8F7 /* UI */,
 				74BE67121A9F40BA008F7C44 /* AppDelegate.h */,
@@ -920,6 +933,7 @@
 				197C6C621AA5C8710033A8F7 /* NetWorkService.m in Sources */,
 				197C6C9E1AA5C9810033A8F7 /* ASIAuthenticationDialog.m in Sources */,
 				197C6CB71AA5CA1E0033A8F7 /* UIModelCoding.m in Sources */,
+				197C6CD71AA5ED860033A8F7 /* BlueToothSDKVer1.m in Sources */,
 				197C6CAD1AA5C9810033A8F7 /* ASICloudFilesRequest.m in Sources */,
 				197C6CA51AA5C9810033A8F7 /* ASINetworkQueue.m in Sources */,
 				197C6CA81AA5C9810033A8F7 /* ASICloudFilesContainer.m in Sources */,
