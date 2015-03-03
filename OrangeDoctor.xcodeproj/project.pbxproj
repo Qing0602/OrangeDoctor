@@ -291,8 +291,7 @@
 				197C6C5A1AA5C8710033A8F7 /* NetWorkService.m */,
 				197C6C5B1AA5C8710033A8F7 /* OP */,
 			);
-			name = HttpEngine;
-			path = OrangeDoctor/HttpEngine;
+			path = HttpEngine;
 			sourceTree = "<group>";
 		};
 		197C6C561AA5C8710033A8F7 /* Model */ = {
@@ -448,8 +447,7 @@
 				19C1F6D01AA073D800022293 /* EaseMobSDK */,
 				197C6CCB1AA5CDE50033A8F7 /* Reachability */,
 			);
-			name = FrameWork;
-			path = OrangeDoctor/FrameWork;
+			path = FrameWork;
 			sourceTree = "<group>";
 		};
 		19C1F6D01AA073D800022293 /* EaseMobSDK */ = {
@@ -747,8 +745,6 @@
 		74BE67021A9F40BA008F7C44 = {
 			isa = PBXGroup;
 			children = (
-				197C6C531AA5C8710033A8F7 /* HttpEngine */,
-				19C1F6CF1AA073D800022293 /* FrameWork */,
 				74BE670D1A9F40BA008F7C44 /* OrangeDoctor */,
 				74BE67271A9F40BB008F7C44 /* OrangeDoctorTests */,
 				74BE670C1A9F40BA008F7C44 /* Products */,
@@ -767,6 +763,7 @@
 		74BE670D1A9F40BA008F7C44 /* OrangeDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				197C6C531AA5C8710033A8F7 /* HttpEngine */,
 				197C6CB81AA5CA6F0033A8F7 /* UI */,
 				74BE67121A9F40BA008F7C44 /* AppDelegate.h */,
 				74BE67131A9F40BA008F7C44 /* AppDelegate.m */,
@@ -783,6 +780,7 @@
 		74BE670E1A9F40BA008F7C44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19C1F6CF1AA073D800022293 /* FrameWork */,
 				74BE670F1A9F40BA008F7C44 /* Info.plist */,
 				74BE67101A9F40BA008F7C44 /* main.m */,
 			);
