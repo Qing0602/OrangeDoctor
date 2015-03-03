@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h> 
 
 @interface BlueToothSDKVer1 : NSObject
 

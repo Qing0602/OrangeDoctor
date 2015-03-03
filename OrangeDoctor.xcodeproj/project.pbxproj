@@ -46,6 +46,7 @@
 		197C6CCE1AA5CDE50033A8F7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CCD1AA5CDE50033A8F7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		197C6CCF1AA5CFA00033A8F7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C6CC41AA5CB310033A8F7 /* libxml2.dylib */; };
 		197C6CD71AA5ED860033A8F7 /* BlueToothSDKVer1.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */; };
+		197C6CD91AA5EE790033A8F7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C6CD81AA5EE790033A8F7 /* CoreBluetooth.framework */; };
 		19C1F7511AA073D900022293 /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19C1F74E1AA073D800022293 /* EaseMob.bundle */; };
 		74BE67111A9F40BA008F7C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67101A9F40BA008F7C44 /* main.m */; };
 		74BE67141A9F40BA008F7C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67131A9F40BA008F7C44 /* AppDelegate.m */; };
@@ -144,6 +145,7 @@
 		197C6CCD1AA5CDE50033A8F7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		197C6CD51AA5ED860033A8F7 /* BlueToothSDKVer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothSDKVer1.h; sourceTree = "<group>"; };
 		197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothSDKVer1.m; sourceTree = "<group>"; };
+		197C6CD81AA5EE790033A8F7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		19C1F6D51AA073D800022293 /* ICallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManagerDelegate.h; sourceTree = "<group>"; };
 		19C1F6D71AA073D800022293 /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
 		19C1F6D81AA073D800022293 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197C6CD91AA5EE790033A8F7 /* CoreBluetooth.framework in Frameworks */,
 				197C6CCF1AA5CFA00033A8F7 /* libxml2.dylib in Frameworks */,
 				197C6CC71AA5CB3E0033A8F7 /* libz.1.2.5.dylib in Frameworks */,
 				197C6CC31AA5CAFA0033A8F7 /* CFNetwork.framework in Frameworks */,
@@ -450,6 +453,7 @@
 			children = (
 				197C6CC61AA5CB3E0033A8F7 /* libz.1.2.5.dylib */,
 				197C6CC41AA5CB310033A8F7 /* libxml2.dylib */,
+				197C6CD81AA5EE790033A8F7 /* CoreBluetooth.framework */,
 				197C6CC21AA5CAFA0033A8F7 /* CFNetwork.framework */,
 				197C6CC01AA5CAF00033A8F7 /* UIKit.framework */,
 				197C6CBE1AA5CAD80033A8F7 /* AVFoundation.framework */,
