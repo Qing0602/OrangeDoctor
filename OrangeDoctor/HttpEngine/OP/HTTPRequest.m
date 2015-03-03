@@ -17,6 +17,7 @@
         self.requestCompletedToCache = nil;
         self.needAutoShowErrorMessage = YES;
         self.context = nil;
+        
     }
     return self;
 }
