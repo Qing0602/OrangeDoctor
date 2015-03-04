@@ -1,18 +1,30 @@
 //
-//  BlueToothSDKVer1.m
+//  SearchBlueToothViewController.m
 //  OrangeDoctor
 //
-//  Created by singlew on 15/3/3.
+//  Created by singlew on 15/3/4.
 //  Copyright (c) 2015年 Orange. All rights reserved.
 //
 
-#import "BlueToothSDKVer1.h"
+#import "SearchBlueToothViewController.h"
 
-@implementation BlueToothSDKVer1
--(void) initBlueTooth{
+@interface SearchBlueToothViewController ()
+
+@end
+
+@implementation SearchBlueToothViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     self.central = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
-    self.central.delegate = self;
+    // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central{
     NSLog(@"1");
@@ -44,5 +56,7 @@
 
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI{
     NSLog(@"%@",advertisementData);
+    
 }
+
 @end

@@ -47,6 +47,7 @@
 		197C6CCF1AA5CFA00033A8F7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C6CC41AA5CB310033A8F7 /* libxml2.dylib */; };
 		197C6CD71AA5ED860033A8F7 /* BlueToothSDKVer1.m in Sources */ = {isa = PBXBuildFile; fileRef = 197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */; };
 		197C6CD91AA5EE790033A8F7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197C6CD81AA5EE790033A8F7 /* CoreBluetooth.framework */; };
+		19AFFAD81AA6F5CD001631BF /* SearchBlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AFFAD71AA6F5CD001631BF /* SearchBlueToothViewController.m */; };
 		19C1F7511AA073D900022293 /* EaseMob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19C1F74E1AA073D800022293 /* EaseMob.bundle */; };
 		74BE67111A9F40BA008F7C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67101A9F40BA008F7C44 /* main.m */; };
 		74BE67141A9F40BA008F7C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE67131A9F40BA008F7C44 /* AppDelegate.m */; };
@@ -146,6 +147,8 @@
 		197C6CD51AA5ED860033A8F7 /* BlueToothSDKVer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothSDKVer1.h; sourceTree = "<group>"; };
 		197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothSDKVer1.m; sourceTree = "<group>"; };
 		197C6CD81AA5EE790033A8F7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		19AFFAD61AA6F5CD001631BF /* SearchBlueToothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBlueToothViewController.h; sourceTree = "<group>"; };
+		19AFFAD71AA6F5CD001631BF /* SearchBlueToothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBlueToothViewController.m; sourceTree = "<group>"; };
 		19C1F6D51AA073D800022293 /* ICallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICallManagerDelegate.h; sourceTree = "<group>"; };
 		19C1F6D71AA073D800022293 /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
 		19C1F6D81AA073D800022293 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
@@ -424,6 +427,7 @@
 		197C6CB81AA5CA6F0033A8F7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				19AFFAD51AA6F582001631BF /* BlueTooth */,
 				197C6CB91AA5CA860033A8F7 /* UIManagement.h */,
 				197C6CBA1AA5CA860033A8F7 /* UIManagement.m */,
 			);
@@ -446,6 +450,15 @@
 				197C6CD61AA5ED860033A8F7 /* BlueToothSDKVer1.m */,
 			);
 			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		19AFFAD51AA6F582001631BF /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				19AFFAD61AA6F5CD001631BF /* SearchBlueToothViewController.h */,
+				19AFFAD71AA6F5CD001631BF /* SearchBlueToothViewController.m */,
+			);
+			path = BlueTooth;
 			sourceTree = "<group>";
 		};
 		19C1F6CF1AA073D800022293 /* FrameWork */ = {
@@ -954,6 +967,7 @@
 				197C6CA31AA5C9810033A8F7 /* ASIHTTPRequest.m in Sources */,
 				197C6CAB1AA5C9810033A8F7 /* ASICloudFilesObject.m in Sources */,
 				197C6CA91AA5C9810033A8F7 /* ASICloudFilesContainerRequest.m in Sources */,
+				19AFFAD81AA6F5CD001631BF /* SearchBlueToothViewController.m in Sources */,
 				197C6CB31AA5C9810033A8F7 /* ASIS3ServiceRequest.m in Sources */,
 				74BE67111A9F40BA008F7C44 /* main.m in Sources */,
 				197C6C631AA5C8710033A8F7 /* FormDataRequest.m in Sources */,

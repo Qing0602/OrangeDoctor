@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h> 
 
-@interface BlueToothSDKVer1 : NSObject
-
+@interface BlueToothSDKVer1 : NSObject<CBCentralManagerDelegate,CBPeripheralDelegate>
+@property (nonatomic,strong) CBCentralManager *central;
+-(void) initBlueTooth;
 @end
