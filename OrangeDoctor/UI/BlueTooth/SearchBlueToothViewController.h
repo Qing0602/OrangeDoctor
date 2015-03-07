@@ -11,4 +11,5 @@
 
 @interface SearchBlueToothViewController : UIViewController<CBCentralManagerDelegate,CBPeripheralDelegate>
 @property (nonatomic,strong) CBCentralManager *central;
+@property (nonatomic,strong) CBPeripheral *peripheral;
 @end
